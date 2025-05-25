@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import os
 
-# Получаем токен из переменной окружения (мы добавим его в Railway позже)
+# Получаем токен из переменной окружения
 TOKEN = os.getenv("BOT_TOKEN")
 
 # Команда /start
